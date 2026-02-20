@@ -83,28 +83,15 @@ CREATE TABLE teacher\_activities (
 ----------------
 
 ### Analytics
-
-Method
-
-Endpoint
-
-Description
-
-GET
-
-/api/analytics/overview
+GET  /api/analytics/overview
 
 Summary cards & teacher table
 
-GET
-
-/api/analytics/weekly
+GET  /api/analytics/weekly
 
 Weekly trends for charts
 
-GET
-
-/api/analytics/teacher/:id
+GET /api/analytics/teacher/:id
 
 Per-teacher analytics
 
@@ -139,7 +126,7 @@ Backend runs on: **http://localhost:4000**
 cd client
 npm install
 npm run dev
-    
+    https://ik.imagekit.io/ay6bdp4tm/Architecture.png
 
 Frontend runs on: **http://localhost:3000**
 
@@ -148,5 +135,6 @@ Frontend runs on: **http://localhost:3000**
 
 Add screenshots of the dashboard here:
 
-![Dashboard Light Mode](https://ik.imagekit.io/ay6bdp4tm/Light.png) ![Dashboard Dark Mode](https://ik.imagekit.io/ay6bdp4tm/Dark.png) ![Weekly Activity Chart](https://ik.imagekit.io/ay6bdp4tm/Light.png)
+![Architecture Details](https://ik.imagekit.io/ay6bdp4tm/Architecture.png)![Dashboard Light Mode](https://ik.imagekit.io/ay6bdp4tm/Light.png) ![Dashboard Dark Mode](https://ik.imagekit.io/ay6bdp4tm/Dark.png) ![Weekly Activity Chart](https://ik.imagekit.io/ay6bdp4tm/Light.png)
+
 
