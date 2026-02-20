@@ -1,9 +1,9 @@
 import express from "express";
 import cors from "cors";
 import "dotenv/config";
-import pool from "../config/db.js";
-import analyticsRoutes from "../routes/analytics.routes.js";
-import metaRoutes from "../routes/meta.routes.js";
+import pool from "./config/db.js";
+import analyticsRoutes from "./routes/analytics.routes.js";
+import metaRoutes from "./routes/meta.routes.js";
 
 const app = express();
 
