@@ -17,6 +17,7 @@ app.get("/", (req, res) => {
 
 // Health check
 app.get("/health", async (req, res) => {
+  console.log(process.env.DATABASE_URL);
   try {
     const result = await pool.query("SELECT NOW()");
     res.status(200).json({ status: "ok", time: result.rows[0] });
