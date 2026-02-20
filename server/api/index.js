@@ -28,3 +28,5 @@ app.get("/health", async (req, res) => {
 // Analytics routes
 app.use("/api/analytics", analyticsRoutes);
 app.use("/api/meta", metaRoutes);
+
+export default app;
