@@ -29,4 +29,9 @@ app.get("/health", async (req, res) => {
 app.use("/api/analytics", analyticsRoutes);
 app.use("/api/meta", metaRoutes);
 
+const PORT = process.env.PORT || 8080;
+app.listen(PORT, () => {
+  console.log(`Server running on http://localhost:${PORT}`);
+});
+
 export default app;
