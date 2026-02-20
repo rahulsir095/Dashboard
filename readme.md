@@ -1,5 +1,3 @@
- Savara – Teacher Insights Dashboard  body { font-family: Arial, Helvetica, sans-serif; line-height: 1.6; color: #1f2937; padding: 24px; max-width: 900px; margin: auto; background: #ffffff; } h1, h2, h3 { color: #111827; } h1 { margin-bottom: 0.5rem; } h2 { margin-top: 2rem; border-bottom: 2px solid #e5e7eb; padding-bottom: 4px; } ul { padding-left: 20px; } code, pre { background: #f3f4f6; padding: 8px; border-radius: 6px; display: block; overflow-x: auto; } table { width: 100%; border-collapse: collapse; margin-top: 12px; } table th, table td { border: 1px solid #e5e7eb; padding: 8px; text-align: left; } table th { background: #f9fafb; } .section { margin-bottom: 24px; } .screenshots img { width: 100%; max-width: 800px; border: 1px solid #e5e7eb; border-radius: 8px; margin-bottom: 16px; }
-
 📊 Savara – Teacher Insights Dashboard
 ======================================
 
@@ -151,3 +149,4 @@ Frontend runs on: **http://localhost:3000**
 Add screenshots of the dashboard here:
 
 ![Dashboard Light Mode](https://ik.imagekit.io/ay6bdp4tm/Light.png) ![Dashboard Dark Mode](https://ik.imagekit.io/ay6bdp4tm/Dark.png) ![Weekly Activity Chart](https://ik.imagekit.io/ay6bdp4tm/Light.png)
+
